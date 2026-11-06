@@ -461,7 +461,7 @@ cluster**, not as EC2 instances:
 
 ```bash
 # k0smotron-managed control plane pods (StatefulSet)
-kubectl get statefulset -A | grep -i hosted-cluster
+kubectl get statefulset -A | grep -i hosted
 kubectl get pods -A | grep managed-cluster-02-hosted
 ```
 
